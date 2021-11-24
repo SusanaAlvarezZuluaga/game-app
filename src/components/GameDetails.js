@@ -36,6 +36,7 @@ function GameDetails() {
             <div className="game-details-title">{game.name}</div>
             <div className="video-holder">
               <video
+                playsInline
                 className="game-video"
                 loop
                 autoPlay
