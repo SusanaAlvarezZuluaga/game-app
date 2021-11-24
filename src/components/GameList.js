@@ -1,22 +1,5 @@
-import { useEffect, useState } from 'react';
-import axios from 'axios';
 import Game from './Game';
 function GameList({ gameList, handleDeleteMovie }) {
-  /* const [gameList, setGameList] = useState([]);
-  useEffect(() => {
-    axios
-      .get('https://wild-games.jsrover.wilders.dev/games')
-      .then((response) => response.data)
-      .then((data) => {
-        const list = data.map((game) => ({
-          id: game.id,
-          name: game.name,
-          rating: game.rating,
-          image: game.background_image,
-        }));
-        setGameList(list);
-      });
-  }, []); */
   const [filterButtonClicked, setFilterButtonClicked] = useState(false);
   function handleButtonClick() {
     setFilterButtonClicked(!filterButtonClicked);
