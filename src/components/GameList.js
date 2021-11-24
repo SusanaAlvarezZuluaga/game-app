@@ -1,9 +1,8 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Game from './Game';
-function GameList() {
-  const [gameList, setGameList] = useState([]);
-  const [filterButtonClicked, setFilterButtonClicked] = useState(false);
+function GameList({ gameList, handleDeleteMovie }) {
+  /* const [gameList, setGameList] = useState([]);
   useEffect(() => {
     axios
       .get('https://wild-games.jsrover.wilders.dev/games')
@@ -17,12 +16,10 @@ function GameList() {
         }));
         setGameList(list);
       });
-  }, []);
+  }, []); */
+  const [filterButtonClicked, setFilterButtonClicked] = useState(false);
   function handleButtonClick() {
     setFilterButtonClicked(!filterButtonClicked);
-  }
-  function handleDeleteMovie(id) {
-    setGameList(gameList.filter((game) => game.id !== id));
   }
   return (
     <div className="game-list">

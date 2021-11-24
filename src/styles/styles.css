@@ -90,6 +90,22 @@ body {
   padding-top: 15px;
   padding-bottom: 15px;
   font-weight: 270;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.return-arrow {
+  color: white;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.first-column {
+}
+.second-column {
+  margin-top: 20px;
+  margin-left: 15px;
 }
 .game-details-title {
   width: 90%;
@@ -103,6 +119,8 @@ body {
   border-radius: 15px;
   width: 90%;
   margin: auto;
+  display: flex;
+  justify-content: center;
 }
 .game-video {
   max-width: 100%;
@@ -110,6 +128,4 @@ body {
 }
 .game-details-info {
   font-weight: 270;
-  width: 90%;
-  margin: auto;
 }

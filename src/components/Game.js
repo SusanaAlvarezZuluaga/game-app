@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 function Game(props) {
-  const { id, name, rating, image } = props;
+  const { id, name, rating, image, handleDeleteMovie } = props;
   return (
     <div className="game-card">
       <div className="game-image-holder">
@@ -16,7 +16,7 @@ function Game(props) {
         >
           <div className="see-more-info-button"> See more info</div>
         </Link>
-        <div class="delete-button" onClick={() => props.handleDeleteMovie(id)}>
+        <div class="delete-button" onClick={() => handleDeleteMovie(id)}>
           <span class="material-icons ">delete_outline</span>
         </div>
       </div>
