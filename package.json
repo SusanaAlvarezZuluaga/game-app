@@ -2,7 +2,7 @@
   "homepage": "http://SusanaAlvarezZulauga.github.io/game-app",
   "name": "checkpoint-2",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.1",
     "@testing-library/react": "^11.2.7",

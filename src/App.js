@@ -5,7 +5,7 @@ import GameDetails from './components/GameDetails';
 import './styles/styles.css';
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route
           path="/"
