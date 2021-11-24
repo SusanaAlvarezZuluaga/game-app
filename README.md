@@ -15,3 +15,7 @@ This project consists of a little game app built using React. The app fetches ga
 1. Clone the master branch of this repository.
 2. Run the command `npm install` in your terminal. This will install in your project folder all the packages used in this project.
 3. Run the command `npm start` to see the app running
+
+## Important note for safari users
+
+Try not to use safari, to visualize the app because some video features will not work properly. However, if you definitely want to use safari, follow the instructions provided in this [link](https://testgenius.com/help/safari-enable-auto-play-settings.pdf) to make the videos work
